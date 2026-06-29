@@ -1,14 +1,14 @@
-import { Link } from 'react-router';
-import { useLanguage } from '../context/LanguageContext';
-import styles from './home.module.css';
+import { Link } from "react-router";
+import { useLanguage } from "../context/LanguageContext";
+import styles from "./home.module.css";
 
 export function meta() {
   return [
-    { title: 'Pingwin Klub — Tenis Stołowy Warszawa' },
+    { title: "Pingwin Klub — Tenis Stołowy Kraków" },
     {
-      name: 'description',
+      name: "description",
       content:
-        'Zajęcia z tenisa stołowego dla dzieci, juniorów i dorosłych w Warszawie. Dołącz do Pingwin Klubu!',
+        "Zajęcia z tenisa stołowego dla dzieci, juniorów i dorosłych w Krakowie. Dołącz do Pingwin Klubu!",
     },
   ];
 }
