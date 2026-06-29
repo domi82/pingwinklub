@@ -1,0 +1,116 @@
+/* Hero */
+.hero {
+  position: relative;
+  min-height: calc(100vh - var(--nav-height));
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(ellipse 70% 90% at 8% 30%, rgba(214, 234, 243, 0.1) 0%, transparent 100%),
+    linear-gradient(
+      148deg,
+      #03354c 0%,
+      #03354c 30%,
+      #6b0000 54%,
+      #bd0000 68%,
+      #d94a00 82%,
+      #ff6b35 100%
+    );
+  overflow: hidden;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 75% 20%, rgba(255, 107, 53, 0.18) 0%, transparent 45%),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+    repeat;
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  padding-block: 5rem;
+  max-width: 780px;
+}
+
+.heroTagline {
+  color: #fff;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+.heroSub {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+}
+
+.heroCta {
+  font-size: 1.0625rem;
+}
+
+/* Features */
+.features {
+  background: var(--color-surface);
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+  margin-top: 3rem;
+}
+
+.featureCard {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.featureCard:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.featureTitle {
+  margin-bottom: 0.625rem;
+  color: var(--color-primary);
+}
+
+.featureBody {
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+}
+
+/* CTA Banner */
+.ctaBanner {
+  background: var(--color-primary);
+  padding-block: 4rem;
+}
+
+.ctaInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.ctaText {
+  font-size: clamp(1.1rem, 2vw, 1.375rem);
+  font-weight: 600;
+  color: #fff;
+  max-width: 560px;
+}

@@ -1,0 +1,132 @@
+.page {
+  min-height: calc(100vh - var(--nav-height));
+}
+
+/* Page header */
+.pageHeader {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  padding-block: clamp(3rem, 6vw, 5rem);
+  color: #fff;
+}
+
+.pageHeader h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  max-width: 720px;
+  line-height: 1.75;
+}
+
+/* Mission */
+.missionSection {
+  background: var(--color-surface);
+}
+
+.missionCard {
+  background: var(--color-primary-light);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: 2.5rem;
+  max-width: 820px;
+}
+
+.missionCard h2 {
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+}
+
+.missionCard p {
+  color: var(--color-text);
+  font-size: 1.0625rem;
+}
+
+/* Coaches */
+.coachesSection {
+  background: var(--color-bg);
+}
+
+.coachGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.coachCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  display: flex;
+  gap: 1.25rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.coachCard:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.coachAvatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.coachInfo {
+  flex: 1;
+}
+
+.coachName {
+  font-size: 1.0625rem;
+  margin-bottom: 0.25rem;
+  color: var(--color-text);
+}
+
+.coachRole {
+  display: inline-block;
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.coachBio {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* History */
+.historySection {
+  background: var(--color-surface);
+}
+
+.historyContent {
+  max-width: 820px;
+}
+
+.historyContent h2 {
+  color: var(--color-primary);
+  margin-bottom: 1.25rem;
+}
+
+.historyContent p {
+  color: var(--color-text);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
