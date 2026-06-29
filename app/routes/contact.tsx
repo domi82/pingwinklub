@@ -1,34 +1,34 @@
-import { useState } from 'react';
-import { useLanguage } from '../context/LanguageContext';
-import styles from './contact.module.css';
+import { useState } from "react";
+import { useLanguage } from "../context/LanguageContext";
+import styles from "./contact.module.css";
 
 export function meta() {
   return [
-    { title: 'Kontakt — Pingwin Klub' },
+    { title: "Kontakt — Klub Pingwin" },
     {
-      name: 'description',
+      name: "description",
       content:
-        'Skontaktuj się z Pingwin Klubem. Adres, telefon, godziny otwarcia i formularz kontaktowy.',
+        "Skontaktuj się z nami. Adres, telefon, godziny otwarcia i formularz kontaktowy.",
     },
   ];
 }
 
-type FormStatus = 'idle' | 'sending' | 'success';
+type FormStatus = "idle" | "sending" | "success";
 
 export default function Contact() {
   const { t } = useLanguage();
   const ct = t.contact;
 
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [subject, setSubject] = useState(ct.form.subjectOptions[0]);
-  const [message, setMessage] = useState('');
-  const [status, setStatus] = useState<FormStatus>('idle');
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState<FormStatus>("idle");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus('sending');
-    setTimeout(() => setStatus('success'), 1200);
+    setStatus("sending");
+    setTimeout(() => setStatus("success"), 1200);
   };
 
   return (
@@ -43,7 +43,7 @@ export default function Contact() {
         <div className={`container ${styles.grid}`}>
           {/* Form */}
           <div className={styles.formPanel}>
-            {status === 'success' ? (
+            {status === "success" ? (
               <div className={styles.successMsg}>
                 <span className={styles.successIcon}>✅</span>
                 <p>{ct.form.successMsg}</p>
@@ -103,9 +103,9 @@ export default function Contact() {
                 <button
                   type="submit"
                   className={`btn btn-primary ${styles.submitBtn}`}
-                  disabled={status === 'sending'}
+                  disabled={status === "sending"}
                 >
-                  {status === 'sending' ? '…' : ct.form.send}
+                  {status === "sending" ? "…" : ct.form.send}
                 </button>
               </form>
             )}
@@ -115,16 +115,19 @@ export default function Contact() {
           <div className={styles.infoPanel}>
             <div className={styles.infoCards}>
               {[
-                { icon: '📍', ...ct.info.address },
-                { icon: '📞', ...ct.info.phone },
-                { icon: '✉️', ...ct.info.email },
-                { icon: '🕐', ...ct.info.hours },
+                { icon: "📍", ...ct.info.address },
+                { icon: "📞", ...ct.info.phone },
+                { icon: "✉️", ...ct.info.email },
+                { icon: "🕐", ...ct.info.hours },
               ].map(({ icon, label, value }) => (
                 <div key={label} className={styles.infoCard}>
                   <span className={styles.infoIcon}>{icon}</span>
                   <div>
                     <p className={styles.infoLabel}>{label}</p>
-                    <p className={styles.infoValue} style={{ whiteSpace: 'pre-line' }}>
+                    <p
+                      className={styles.infoValue}
+                      style={{ whiteSpace: "pre-line" }}
+                    >
                       {value}
                     </p>
                   </div>
@@ -133,7 +136,7 @@ export default function Contact() {
             </div>
 
             <div className={styles.mapPlaceholder}>
-              <p>📍 ul. Sportowa 12, Warszawa</p>
+              <p>📍 ul. Sportowa 12, Kraków</p>
               <p className={styles.mapSub}>Google Maps</p>
             </div>
           </div>

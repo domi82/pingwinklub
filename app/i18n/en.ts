@@ -33,7 +33,7 @@ export const en: Translation = {
       },
     ],
     ctaBanner: {
-      text: 'Ready to get started? Join Pingwin Klub today!',
+      text: 'Ready to get started? Join Pingwin today!',
       button: 'Get in touch',
     },
   },

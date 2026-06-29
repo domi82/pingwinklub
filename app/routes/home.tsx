@@ -37,7 +37,7 @@ export default function Home() {
       {/* Features */}
       <section className={`section ${styles.features}`}>
         <div className="container">
-          <h2 className="sectionHeading">Pingwin - Co nas wyróżnia</h2>
+          <h2 className="sectionHeading">Pingwin</h2>
           <div className={styles.featureGrid}>
             {t.home.features.map((f, i) => (
               <div key={i} className={styles.featureCard}>
