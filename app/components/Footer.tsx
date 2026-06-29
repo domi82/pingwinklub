@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { useLanguage } from "../context/LanguageContext";
 import styles from "./Footer.module.css";
+import { FeatureIcon } from "./FeatureIcons";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -9,7 +10,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.inner}`}>
         <div className={styles.brand}>
-          <span>🏓</span>
+          <FeatureIcon name={"paddle"} />
           <strong>Pingwin</strong>
         </div>
         <p className={styles.tagline}>{t.footer.tagline}</p>

@@ -49,19 +49,14 @@ export const en: Translation = {
       heading: 'Our coaches',
       list: [
         {
-          name: 'Anna Kowalska',
+          name: 'Antonina Szymańska',
           role: 'Head Coach',
-          bio: 'A former national team player and multiple Polish championship medallist. Anna leads advanced and competitive groups with extraordinary passion and precision.',
+          bio: 'A former national team player and multiple Polish championship medallist. Antonina leads advanced and competitive groups with extraordinary passion and precision.',
         },
         {
           name: 'Marek Wiśniewski',
           role: 'Youth Specialist',
           bio: 'Over 15 years of experience working with children and juniors. Marek specialises in technique and tactics for young players.',
-        },
-        {
-          name: 'Joanna Nowak',
-          role: 'Fitness & Footwork Coach',
-          bio: 'A graduate of the Academy of Physical Education and an expert in athletic preparation. Joanna keeps all club players fit and agile.',
         },
       ],
     },

@@ -49,19 +49,14 @@ export const pl: Translation = {
       heading: 'Nasi trenerzy',
       list: [
         {
-          name: 'Anna Kowalska',
+          name: 'Antonina Szymańska',
           role: 'Trener główny',
-          bio: 'Była zawodniczka kadry narodowej, wielokrotna medalistka Mistrzostw Polski. Anna prowadzi grupy zaawansowane i wyczynowe z niezwykłą pasją i precyzją.',
+          bio: 'Była zawodniczka kadry narodowej, wielokrotna medalistka Mistrzostw Polski. Antonina prowadzi grupy zaawansowane i wyczynowe z niezwykłą pasją i precyzją.',
         },
         {
           name: 'Marek Wiśniewski',
           role: 'Specjalista ds. młodzieży',
           bio: 'Ponad 15 lat doświadczenia w pracy z dziećmi i juniorami. Marek specjalizuje się w technice i taktyce gry dla młodych zawodników.',
-        },
-        {
-          name: 'Joanna Nowak',
-          role: 'Trener fitness i gry nóg',
-          bio: 'Absolwentka AWF, ekspert ds. przygotowania fizycznego. Joanna dba o kondycję i sprawność wszystkich zawodników klubu.',
         },
       ],
     },
