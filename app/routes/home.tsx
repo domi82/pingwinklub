@@ -1,10 +1,12 @@
 import { Link } from "react-router";
 import { useLanguage } from "../context/LanguageContext";
+import { PingwinIllustration } from "../components/PingwinIllustration";
+import { FeatureIcon } from "../components/FeatureIcons";
 import styles from "./home.module.css";
 
 export function meta() {
   return [
-    { title: "Pingwin Klub — Tenis Stołowy Kraków" },
+    { title: "Pingwin — Tenis Stołowy Kraków" },
     {
       name: "description",
       content:
@@ -20,24 +22,28 @@ export default function Home() {
     <>
       {/* Hero */}
       <section className={styles.hero}>
-        <div className={styles.heroOverlay} />
         <div className={`container ${styles.heroContent}`}>
-          <h1 className={styles.heroTagline}>{t.home.hero.tagline}</h1>
-          <p className={styles.heroSub}>{t.home.hero.subtagline}</p>
-          <Link to="/schedule" className={`btn btn-accent ${styles.heroCta}`}>
-            {t.home.hero.cta} →
-          </Link>
+          <div className={styles.heroText}>
+            <h1 className={styles.heroTagline}>{t.home.hero.tagline}</h1>
+            <p className={styles.heroSub}>{t.home.hero.subtagline}</p>
+            <Link to="/schedule" className={`btn btn-accent ${styles.heroCta}`}>
+              {t.home.hero.cta} →
+            </Link>
+          </div>
+          <PingwinIllustration className={styles.heroIllustration} />
         </div>
       </section>
 
       {/* Features */}
       <section className={`section ${styles.features}`}>
         <div className="container">
-          <h2 className="sectionHeading">Pingwin Klub</h2>
+          <h2 className="sectionHeading">Pingwin - Co nas wyróżnia</h2>
           <div className={styles.featureGrid}>
             {t.home.features.map((f, i) => (
               <div key={i} className={styles.featureCard}>
-                <span className={styles.featureIcon}>{f.icon}</span>
+                <span className={styles.featureIcon}>
+                  <FeatureIcon name={f.icon} />
+                </span>
                 <h3 className={styles.featureTitle}>{f.title}</h3>
                 <p className={styles.featureBody}>{f.body}</p>
               </div>

@@ -17,30 +17,30 @@ export const pl: Translation = {
     },
     features: [
       {
-        icon: '🏓',
+        icon: 'paddle',
         title: 'Zajęcia dla każdego',
         body: 'Prowadzimy grupy dla dzieci, juniorów i dorosłych na każdym poziomie zaawansowania. Nigdy nie jest za późno, żeby zacząć!',
       },
       {
-        icon: '🏅',
+        icon: 'coach',
         title: 'Wykwalifikowani trenerzy',
         body: 'Nasi trenerzy posiadają licencje PZTS i wieloletnie doświadczenie w szkoleniu zawodników na każdym poziomie.',
       },
       {
-        icon: '🏢',
+        icon: 'facility',
         title: 'Nowoczesny sprzęt',
         body: '8 stołów Butterfly, profesjonalne oświetlenie i komfortowe szatnie czekają na Ciebie.',
       },
     ],
     ctaBanner: {
-      text: 'Gotowy, żeby zacząć? Dołącz do Pingwin Klubu już dziś!',
-      button: 'Kontaktuj się',
+      text: 'Gotowy, żeby zacząć? Dołącz do naszego klubu już dziś!',
+      button: 'Kontakt',
     },
   },
   about: {
     heading: 'O Nas',
     intro:
-      'Pingwin Klub to miejsce, gdzie pasja do tenisa stołowego spotyka się z profesjonalnym szkoleniem. Od 2012 roku rozwijamy talenty i pomagamy zawodnikom na każdym poziomie osiągać swoje cele.',
+      'Pingwin to miejsce, gdzie pasja do tenisa stołowego spotyka się z profesjonalnym szkoleniem. Od 2012 roku rozwijamy talenty i pomagamy zawodnikom na każdym poziomie osiągać swoje cele.',
     mission: {
       heading: 'Nasza misja',
       body: 'Rozwijamy pasję do tenisa stołowego w przyjaznej atmosferze sportowej. Wierzymy, że każdy — niezależnie od wieku i poziomu — może czerpać radość z gry i stale się doskonalić.',
@@ -67,7 +67,7 @@ export const pl: Translation = {
     },
     history: {
       heading: 'Nasza historia',
-      body: 'Pingwin Klub powstał w 2012 roku z inicjatywy grupy entuzjastów tenisa stołowego. W 2015 roku nasz junior zdobył złoto na Mistrzostwach Mazowsza. W 2020 roku uruchomiliśmy Akademię Młodego Pingwina, skierowaną do dzieci od 6. roku życia. Dziś klub liczy ponad 200 aktywnych członków i z roku na rok rośnie w siłę.',
+      body: 'Klub Pingwin powstał w 2012 roku z inicjatywy grupy entuzjastów tenisa stołowego. W 2015 roku nasz junior zdobył złoto na Mistrzostwach Mazowsza. W 2020 roku uruchomiliśmy Akademię Młodego Pingwina, skierowaną do dzieci od 6. roku życia. Dziś klub liczy ponad 200 aktywnych członków i z roku na rok rośnie w siłę.',
     },
   },
   schedule: {
@@ -129,7 +129,7 @@ export const pl: Translation = {
     },
   },
   footer: {
-    tagline: 'Pingwin Klub — Twoje miejsce na ping-ponga w Krakowie',
-    copyright: 'Pingwin Klub. Wszelkie prawa zastrzeżone.',
+    tagline: 'Pingwin — Twoje miejsce na ping-ponga w Krakowie',
+    copyright: 'Pingwin. Wszelkie prawa zastrzeżone.',
   },
 };

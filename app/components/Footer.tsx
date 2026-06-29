@@ -1,6 +1,6 @@
-import { Link } from 'react-router';
-import { useLanguage } from '../context/LanguageContext';
-import styles from './Footer.module.css';
+import { Link } from "react-router";
+import { useLanguage } from "../context/LanguageContext";
+import styles from "./Footer.module.css";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -10,7 +10,7 @@ export default function Footer() {
       <div className={`container ${styles.inner}`}>
         <div className={styles.brand}>
           <span>🏓</span>
-          <strong>Pingwin Klub</strong>
+          <strong>Pingwin</strong>
         </div>
         <p className={styles.tagline}>{t.footer.tagline}</p>
         <nav className={styles.footerLinks}>

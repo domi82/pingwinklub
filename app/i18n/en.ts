@@ -17,17 +17,17 @@ export const en: Translation = {
     },
     features: [
       {
-        icon: '🏓',
+        icon: 'paddle',
         title: 'Classes for everyone',
         body: 'We run groups for children, juniors, and adults at every skill level. It is never too late to start!',
       },
       {
-        icon: '🏅',
+        icon: 'coach',
         title: 'Qualified coaches',
         body: 'Our coaches hold PZTS licences and have years of experience training players of all backgrounds.',
       },
       {
-        icon: '🏢',
+        icon: 'facility',
         title: 'Modern facilities',
         body: '8 Butterfly tables, professional lighting, and comfortable changing rooms are waiting for you.',
       },
@@ -40,7 +40,7 @@ export const en: Translation = {
   about: {
     heading: 'About Us',
     intro:
-      'Pingwin Klub is a place where passion for table tennis meets professional coaching. Since 2012 we have been developing talents and helping players at every level reach their goals.',
+      'Pingwin is a place where passion for table tennis meets professional coaching. Since 2012 we have been developing talents and helping players at every level reach their goals.',
     mission: {
       heading: 'Our mission',
       body: 'We cultivate a passion for table tennis in a friendly sporting environment. We believe that everyone — regardless of age or skill — can enjoy the game and keep improving.',
@@ -67,7 +67,7 @@ export const en: Translation = {
     },
     history: {
       heading: 'Our history',
-      body: 'Pingwin Klub was founded in 2012 by a group of table tennis enthusiasts. In 2015, our junior player won gold at the Masovian Championships. In 2020 we launched the Young Penguin Academy for children from age 6. Today the club counts over 200 active members and grows stronger every year.',
+      body: 'Pingwin was founded in 2012 by a group of table tennis enthusiasts. In 2015, our junior player won gold at the Masovian Championships. In 2020 we launched the Young Penguin Academy for children from age 6. Today the club counts over 200 active members and grows stronger every year.',
     },
   },
   schedule: {

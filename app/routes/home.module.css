@@ -1,55 +1,56 @@
 /* Hero */
 .hero {
-  position: relative;
   min-height: calc(100vh - var(--nav-height));
   display: flex;
   align-items: center;
-  background:
-    radial-gradient(ellipse 70% 90% at 8% 30%, rgba(214, 234, 243, 0.1) 0%, transparent 100%),
-    linear-gradient(
-      148deg,
-      #03354c 0%,
-      #03354c 30%,
-      #6b0000 54%,
-      #bd0000 68%,
-      #d94a00 82%,
-      #ff6b35 100%
-    );
-  overflow: hidden;
-}
-
-.heroOverlay {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 75% 20%, rgba(255, 107, 53, 0.18) 0%, transparent 45%),
-    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
-    repeat;
-  pointer-events: none;
+  background: #010f1a;
 }
 
 .heroContent {
-  position: relative;
-  z-index: 1;
-  padding-block: 5rem;
-  max-width: 780px;
+  padding-block: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.heroText {
+  flex: 1;
+  min-width: 0;
+  max-width: 560px;
 }
 
 .heroTagline {
   color: #fff;
   margin-bottom: 1.25rem;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
 }
 
 .heroSub {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.82);
   font-size: clamp(1rem, 1.5vw, 1.25rem);
-  max-width: 600px;
+  max-width: 520px;
   margin-bottom: 2.5rem;
 }
 
 .heroCta {
   font-size: 1.0625rem;
+}
+
+.heroIllustration {
+  flex: 0 0 360px;
+  width: 360px;
+  height: 360px;
+  filter: drop-shadow(0 24px 64px rgba(0, 0, 0, 0.55));
+}
+
+@media (max-width: 900px) {
+  .heroIllustration {
+    display: none;
+  }
+
+  .heroContent {
+    padding-block: 5rem;
+  }
 }
 
 /* Features */
@@ -78,10 +79,10 @@
 }
 
 .featureIcon {
-  font-size: 2.5rem;
   display: block;
   margin-bottom: 1rem;
-  line-height: 1;
+  width: 48px;
+  height: 48px;
 }
 
 .featureTitle {
@@ -90,7 +91,7 @@
 }
 
 .featureBody {
-  color: var(--color-text-muted);
+  color: var(--color-primary);
   font-size: 0.9375rem;
 }
 
