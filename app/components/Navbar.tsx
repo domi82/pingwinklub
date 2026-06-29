@@ -1,7 +1,8 @@
-import { useState } from 'react';
-import { NavLink, Link } from 'react-router';
-import { useLanguage } from '../context/LanguageContext';
-import styles from './Navbar.module.css';
+import { useState } from "react";
+import { NavLink, Link } from "react-router";
+import { useLanguage } from "../context/LanguageContext";
+import logo from "../images/logo-transparent.png";
+import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   const { t, toggleLanguage } = useLanguage();
@@ -16,11 +17,14 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <div className={styles.inner}>
         <Link to="/" className={styles.brand} onClick={closeMenu}>
-          <span className={styles.brandIcon}>🏓</span>
-          <span className={styles.brandName}>Pingwin Klub</span>
+          <img
+            src={logo}
+            alt="Pingwin Klub logo"
+            className={styles.brandLogo}
+          />
         </Link>
 
-        <ul className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
+        <ul className={`${styles.links} ${menuOpen ? styles.open : ""}`}>
           <li>
             <NavLink to="/" end className={linkClass} onClick={closeMenu}>
               {t.nav.home}
@@ -48,7 +52,7 @@ export default function Navbar() {
             {t.nav.langToggle}
           </button>
           <button
-            className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ''}`}
+            className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ""}`}
             onClick={() => setMenuOpen((v) => !v)}
             aria-label="Toggle menu"
             aria-expanded={menuOpen}
