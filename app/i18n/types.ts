@@ -81,9 +81,8 @@ export interface Translation {
     };
     info: {
       address: { label: string; value: string };
-      phone: { label: string; value: string };
       email: { label: string; value: string };
-      hours: { label: string; value: string };
+      note?: string;
     };
   };
   footer: {

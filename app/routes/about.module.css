@@ -111,6 +111,13 @@
   line-height: 1.6;
 }
 
+.coachPhoto {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  margin-top: 1rem;
+}
+
 /* History */
 .historySection {
   background: var(--color-surface);

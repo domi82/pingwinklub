@@ -29,7 +29,7 @@ export const pl: Translation = {
       {
         icon: 'facility',
         title: 'Nowoczesny sprzęt',
-        body: '8 stołów Butterfly, profesjonalne oświetlenie i komfortowe szatnie czekają na Ciebie.',
+        body: 'Nowe stoły tenisowe, profesjonalne oświetlenie i komfortowe szatnie czekają na Ciebie.',
       },
     ],
     ctaBanner: {
@@ -40,7 +40,7 @@ export const pl: Translation = {
   about: {
     heading: 'O Nas',
     intro:
-      'Pingwin to miejsce, gdzie pasja do tenisa stołowego spotyka się z profesjonalnym szkoleniem. Od 2012 roku rozwijamy talenty i pomagamy zawodnikom na każdym poziomie osiągać swoje cele.',
+      'Pingwin to miejsce, gdzie pasja do tenisa stołowego spotyka się z profesjonalnym szkoleniem. Od ponad 15 lat rozwijamy talenty i pomagamy zawodnikom na każdym poziomie osiągać swoje cele.',
     mission: {
       heading: 'Nasza misja',
       body: 'Rozwijamy pasję do tenisa stołowego w przyjaznej atmosferze sportowej. Wierzymy, że każdy — niezależnie od wieku i poziomu — może czerpać radość z gry i stale się doskonalić.',
@@ -51,24 +51,19 @@ export const pl: Translation = {
         {
           name: 'Antonina Szymańska',
           role: 'Trener główny',
-          bio: 'Była zawodniczka kadry narodowej, wielokrotna medalistka Mistrzostw Polski. Antonina prowadzi grupy zaawansowane i wyczynowe z niezwykłą pasją i precyzją.',
-        },
-        {
-          name: 'Marek Wiśniewski',
-          role: 'Specjalista ds. młodzieży',
-          bio: 'Ponad 15 lat doświadczenia w pracy z dziećmi i juniorami. Marek specjalizuje się w technice i taktyce gry dla młodych zawodników.',
+          bio: 'Była zawodniczka kadry narodowej i wielokrotna medalistka Mistrzostw Polski. Antonina prowadzi grupy zaawansowane i wyczynowe z niezwykłą pasją i precyzją.',
         },
       ],
     },
     history: {
       heading: 'Nasza historia',
-      body: 'Klub Pingwin powstał w 2012 roku z inicjatywy grupy entuzjastów tenisa stołowego. W 2015 roku nasz junior zdobył złoto na Mistrzostwach Mazowsza. W 2020 roku uruchomiliśmy Akademię Młodego Pingwina, skierowaną do dzieci od 6. roku życia. Dziś klub liczy ponad 200 aktywnych członków i z roku na rok rośnie w siłę.',
+      body: 'Klub Pingwin powstał ponad 15 lat temu z inicjatywy Antoniny Szymańskiej. W 2020 roku uruchomiliśmy sekcję dla dzieci w wieku szkolnym. Dziś klub liczy wielu aktywnych członków biorących udział w zajęciach na każdym poziomie i z roku na rok rośnie w siłę.',
     },
   },
   schedule: {
     heading: 'Grafik zajęć',
     subheading: 'Znajdź idealne zajęcia dla siebie',
-    note: '* Grafik może ulec zmianie. Prosimy o kontakt w celu potwierdzenia terminu.',
+    note: '* Grafik może ulec zmianie. Prosimy o kontakt w celu potwierdzenia terminu. Aby zerezerwować lekcję próbną, skorzystaj z aplikacji dostępnej na stronie kspingwin.pl.',
     legend: {
       beginner: 'Początkujący',
       intermediate: 'Średniozaawansowany',
@@ -117,10 +112,10 @@ export const pl: Translation = {
       ],
     },
     info: {
-      address: { label: 'Adres', value: 'ul. Sportowa 12\n00-001 Krakow' },
-      phone: { label: 'Telefon', value: '+48 TBD' },
+      address: { label: 'Adres', value: 'Osiedle Albertyńskie 1\n31-861 Krakow' },
       email: { label: 'E-mail', value: 'kontakt@pingwinklub.pl' },
-      hours: { label: 'Godziny otwarcia', value: 'Pon–Pt: 16:00–21:00\nSob: 09:00–14:00' },
+      note: 'Aby umówić się na zajęcia indywidualne lub lekcję próbną, zarezerwuj termin poprzez aplikację dostępną na stronie kspingwin.pl',
+  
     },
   },
   footer: {

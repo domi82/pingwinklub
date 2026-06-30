@@ -116,9 +116,7 @@ export default function Contact() {
             <div className={styles.infoCards}>
               {[
                 { icon: "📍", ...ct.info.address },
-                { icon: "📞", ...ct.info.phone },
                 { icon: "✉️", ...ct.info.email },
-                { icon: "🕐", ...ct.info.hours },
               ].map(({ icon, label, value }) => (
                 <div key={label} className={styles.infoCard}>
                   <span className={styles.infoIcon}>{icon}</span>
@@ -134,9 +132,14 @@ export default function Contact() {
                 </div>
               ))}
             </div>
+            <div className={styles.infoPanel}>
+              <div className={styles.infoCard}>
+                <p>{ct.info.note}</p>
+              </div>
+            </div>
 
             <div className={styles.mapPlaceholder}>
-              <p>📍 ul. Sportowa 12, Kraków</p>
+              <p>📍 Osiedle Albertyńskie 1, Kraków</p>
               <p className={styles.mapSub}>Google Maps</p>
             </div>
           </div>

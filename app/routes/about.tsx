@@ -1,13 +1,13 @@
-import { useLanguage } from '../context/LanguageContext';
-import styles from './about.module.css';
+import { useLanguage } from "../context/LanguageContext";
+import styles from "./about.module.css";
 
 export function meta() {
   return [
-    { title: 'O Nas — Pingwin Klub' },
+    { title: "O Nas — Pingwin Klub" },
     {
-      name: 'description',
+      name: "description",
       content:
-        'Poznaj historię, misję i trenerów Pingwin Klubu — Twojego miejsca na tenis stołowy w Warszawie.',
+        "Poznaj historię, misję i trenerów Pingwin Klubu — Twojego miejsca na tenis stołowy w Warszawie.",
     },
   ];
 }
@@ -44,14 +44,19 @@ export default function About() {
               <div key={i} className={styles.coachCard}>
                 <div className={styles.coachAvatar}>
                   {coach.name
-                    .split(' ')
+                    .split(" ")
                     .map((n) => n[0])
-                    .join('')}
+                    .join("")}
                 </div>
                 <div className={styles.coachInfo}>
                   <h3 className={styles.coachName}>{coach.name}</h3>
                   <span className={styles.coachRole}>{coach.role}</span>
                   <p className={styles.coachBio}>{coach.bio}</p>
+                  <img
+                    className={styles.coachPhoto}
+                    src="app\images\photo-tosia.png"
+                    alt={coach.name}
+                  />
                 </div>
               </div>
             ))}

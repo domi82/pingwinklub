@@ -29,7 +29,7 @@ export const en: Translation = {
       {
         icon: 'facility',
         title: 'Modern facilities',
-        body: '8 Butterfly tables, professional lighting, and comfortable changing rooms are waiting for you.',
+        body: 'New table tennis tables, professional lighting, and comfortable changing rooms are waiting for you.',
       },
     ],
     ctaBanner: {
@@ -40,7 +40,7 @@ export const en: Translation = {
   about: {
     heading: 'About Us',
     intro:
-      'Pingwin is a place where passion for table tennis meets professional coaching. Since 2012 we have been developing talents and helping players at every level reach their goals.',
+      'Pingwin is a place where passion for table tennis meets professional coaching. For more than 15 years we have been developing talents and helping players at every level reach their goals.',
     mission: {
       heading: 'Our mission',
       body: 'We cultivate a passion for table tennis in a friendly sporting environment. We believe that everyone — regardless of age or skill — can enjoy the game and keep improving.',
@@ -53,22 +53,17 @@ export const en: Translation = {
           role: 'Head Coach',
           bio: 'A former national team player and multiple Polish championship medallist. Antonina leads advanced and competitive groups with extraordinary passion and precision.',
         },
-        {
-          name: 'Marek Wiśniewski',
-          role: 'Youth Specialist',
-          bio: 'Over 15 years of experience working with children and juniors. Marek specialises in technique and tactics for young players.',
-        },
       ],
     },
     history: {
       heading: 'Our history',
-      body: 'Pingwin was founded in 2012 by a group of table tennis enthusiasts. In 2015, our junior player won gold at the Masovian Championships. In 2020 we launched the Young Penguin Academy for children from age 6. Today the club counts over 200 active members and grows stronger every year.',
+      body: 'Pingwin was founded more than 15 years ago by Antonina Szymańska. In 2020 we launched the Young Penguin Academy for children in school age. Today the club counts manyactive members and grows stronger every year.',
     },
   },
   schedule: {
     heading: 'Class schedule',
     subheading: 'Find the perfect class for you',
-    note: '* Schedule is subject to change. Please contact us to confirm.',
+    note: '* Schedule is subject to change. Please contact us to confirm. To schedule a trial lesson, use the app available at kspingwin.pl.',
     legend: {
       beginner: 'Beginner',
       intermediate: 'Intermediate',
@@ -118,9 +113,8 @@ export const en: Translation = {
     },
     info: {
       address: { label: 'Address', value: 'Krakow, Poland' },
-      phone: { label: 'Phone', value: '+48 TBD' },
       email: { label: 'Email', value: 'contact@pingwinklub.pl' },
-      hours: { label: 'Opening hours', value: 'Mon–Fri: 16:00–21:00\nSat: 09:00–14:00' },
+      note:'To schedule a trial or individual lesson, use the app available at kspingwin.pl.'
     },
   },
   footer: {
