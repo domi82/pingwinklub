@@ -1,16 +1,16 @@
 import { Link } from "react-router";
 import { useLanguage } from "../context/LanguageContext";
-import { PingwinIllustration } from "../components/PingwinIllustration";
+import { PingWinIllustration } from "../components/PingWinIllustration";
 import { FeatureIcon } from "../components/FeatureIcons";
 import styles from "./home.module.css";
 
 export function meta() {
   return [
-    { title: "Pingwin — Tenis Stołowy Kraków" },
+    { title: "PingWin — Tenis Stołowy Kraków" },
     {
       name: "description",
       content:
-        "Zajęcia z tenisa stołowego dla dzieci, juniorów i dorosłych w Krakowie. Dołącz do Pingwin Klubu!",
+        "Zajęcia z tenisa stołowego dla dzieci, juniorów i dorosłych w Krakowie. Dołącz do PingWin Klubu!",
     },
   ];
 }
@@ -30,14 +30,14 @@ export default function Home() {
               {t.home.hero.cta} →
             </Link>
           </div>
-          <PingwinIllustration className={styles.heroIllustration} />
+          <PingWinIllustration className={styles.heroIllustration} />
         </div>
       </section>
 
       {/* Features */}
       <section className={`section ${styles.features}`}>
         <div className="container">
-          <h2 className="sectionHeading">Pingwin</h2>
+          <h2 className="sectionHeading">PingWin</h2>
           <div className={styles.featureGrid}>
             {t.home.features.map((f, i) => (
               <div key={i} className={styles.featureCard}>

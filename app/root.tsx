@@ -9,7 +9,12 @@ import {
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import logoUrl from './images/logo-transparent.png';
 import './app.css';
+
+export function links() {
+  return [{ rel: 'icon', type: 'image/png', href: logoUrl }];
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

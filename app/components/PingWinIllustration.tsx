@@ -1,4 +1,4 @@
-export function PingwinIllustration({ className }: { className?: string }) {
+export function PingWinIllustration({ className }: { className?: string }) {
   return (
     <svg
       width="170"

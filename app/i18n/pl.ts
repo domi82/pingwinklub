@@ -40,7 +40,7 @@ export const pl: Translation = {
   about: {
     heading: 'O Nas',
     intro:
-      'Pingwin to miejsce, gdzie pasja do tenisa stołowego spotyka się z profesjonalnym szkoleniem. Od ponad 15 lat rozwijamy talenty i pomagamy zawodnikom na każdym poziomie osiągać swoje cele.',
+      'PingWin to miejsce, gdzie pasja do tenisa stołowego spotyka się z profesjonalnym szkoleniem. Od ponad 15 lat rozwijamy talenty i pomagamy zawodnikom na każdym poziomie osiągać swoje cele.',
     mission: {
       heading: 'Nasza misja',
       body: 'Rozwijamy pasję do tenisa stołowego w przyjaznej atmosferze sportowej. Wierzymy, że każdy — niezależnie od wieku i poziomu — może czerpać radość z gry i stale się doskonalić.',
@@ -57,7 +57,7 @@ export const pl: Translation = {
     },
     history: {
       heading: 'Nasza historia',
-      body: 'Klub Pingwin powstał ponad 15 lat temu z inicjatywy Antoniny Szymańskiej. W 2020 roku uruchomiliśmy sekcję dla dzieci w wieku szkolnym. Dziś klub liczy wielu aktywnych członków biorących udział w zajęciach na każdym poziomie i z roku na rok rośnie w siłę.',
+      body: 'Klub PingWin powstał ponad 15 lat temu z inicjatywy Antoniny Szymańskiej. W 2020 roku uruchomiliśmy sekcję dla dzieci w wieku szkolnym. Dziś klub liczy wielu aktywnych członków biorących udział w zajęciach na każdym poziomie i z roku na rok rośnie w siłę.',
     },
   },
   schedule: {
@@ -119,7 +119,7 @@ export const pl: Translation = {
     },
   },
   footer: {
-    tagline: 'Pingwin — Twoje miejsce na ping-ponga w Krakowie',
-    copyright: 'Pingwin. Wszelkie prawa zastrzeżone.',
+    tagline: 'PingWin — Twoje miejsce na ping-ponga w Krakowie',
+    copyright: 'PingWin. Wszelkie prawa zastrzeżone.',
   },
 };

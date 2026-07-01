@@ -4,7 +4,7 @@ import styles from "./contact.module.css";
 
 export function meta() {
   return [
-    { title: "Kontakt — Klub Pingwin" },
+    { title: "Kontakt — Klub PingWin" },
     {
       name: "description",
       content:

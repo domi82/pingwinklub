@@ -5,10 +5,10 @@ import styles from './schedule.module.css';
 
 export function meta() {
   return [
-    { title: 'Grafik Zajęć — Pingwin Klub' },
+    { title: 'Grafik Zajęć — PingWin Klub' },
     {
       name: 'description',
-      content: 'Sprawdź grafik zajęć z tenisa stołowego w Pingwin Klubie. Grupy dla dzieci, juniorów i dorosłych.',
+      content: 'Sprawdź grafik zajęć z tenisa stołowego w PingWin Klubie. Grupy dla dzieci, juniorów i dorosłych.',
     },
   ];
 }

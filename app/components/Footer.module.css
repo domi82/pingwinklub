@@ -21,6 +21,12 @@
   color: #fff;
 }
 
+.brandLogo {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
 .tagline {
   color: #94a3b8;
   font-size: 0.9375rem;

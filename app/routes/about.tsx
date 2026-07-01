@@ -1,13 +1,14 @@
 import { useLanguage } from "../context/LanguageContext";
 import styles from "./about.module.css";
+import tosiaPhoto from "../images/photo-tosia.png";
 
 export function meta() {
   return [
-    { title: "O Nas — Pingwin Klub" },
+    { title: "O Nas — PingWin Klub" },
     {
       name: "description",
       content:
-        "Poznaj historię, misję i trenerów Pingwin Klubu — Twojego miejsca na tenis stołowy w Warszawie.",
+        "Poznaj historię, misję i trenerów PingWin Klubu — Twojego miejsca na tenis stołowy w Warszawie.",
     },
   ];
 }
@@ -54,7 +55,7 @@ export default function About() {
                   <p className={styles.coachBio}>{coach.bio}</p>
                   <img
                     className={styles.coachPhoto}
-                    src="app\images\photo-tosia.png"
+                    src={tosiaPhoto}
                     alt={coach.name}
                   />
                 </div>

@@ -33,14 +33,14 @@ export const en: Translation = {
       },
     ],
     ctaBanner: {
-      text: 'Ready to get started? Join Pingwin today!',
+      text: 'Ready to get started? Join PingWin today!',
       button: 'Get in touch',
     },
   },
   about: {
     heading: 'About Us',
     intro:
-      'Pingwin is a place where passion for table tennis meets professional coaching. For more than 15 years we have been developing talents and helping players at every level reach their goals.',
+      'PingWin is a place where passion for table tennis meets professional coaching. For more than 15 years we have been developing talents and helping players at every level reach their goals.',
     mission: {
       heading: 'Our mission',
       body: 'We cultivate a passion for table tennis in a friendly sporting environment. We believe that everyone — regardless of age or skill — can enjoy the game and keep improving.',
@@ -57,7 +57,7 @@ export const en: Translation = {
     },
     history: {
       heading: 'Our history',
-      body: 'Pingwin was founded more than 15 years ago by Antonina Szymańska. In 2020 we launched the Young Penguin Academy for children in school age. Today the club counts manyactive members and grows stronger every year.',
+      body: 'PingWin was founded more than 15 years ago by Antonina Szymańska. In 2020 we launched the Young Penguin Academy for children in school age. Today the club counts many active members and grows stronger every year.',
     },
   },
   schedule: {
@@ -118,7 +118,7 @@ export const en: Translation = {
     },
   },
   footer: {
-    tagline: 'Pingwin Klub — Your table tennis home in Krakow',
-    copyright: 'Pingwin Klub. All rights reserved.',
+    tagline: 'PingWin Klub — Your table tennis home in Krakow',
+    copyright: 'PingWin Klub. All rights reserved.',
   },
 };

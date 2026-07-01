@@ -19,7 +19,7 @@ export default function Navbar() {
         <Link to="/" className={styles.brand} onClick={closeMenu}>
           <img
             src={logo}
-            alt="Pingwin Klub logo"
+            alt="PingWin Klub logo"
             className={styles.brandLogo}
           />
         </Link>

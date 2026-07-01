@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { useLanguage } from "../context/LanguageContext";
 import styles from "./Footer.module.css";
-import { FeatureIcon } from "./FeatureIcons";
+import logo from "../images/logo-transparent.png";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -10,8 +10,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.inner}`}>
         <div className={styles.brand}>
-          <FeatureIcon name={"paddle"} />
-          <strong>Pingwin</strong>
+          <img src={logo} alt="PingWin Klub logo" className={styles.brandLogo} />
+          <strong>PingWin</strong>
         </div>
         <p className={styles.tagline}>{t.footer.tagline}</p>
         <nav className={styles.footerLinks}>

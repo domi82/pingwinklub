@@ -44,12 +44,21 @@
 }
 
 @media (max-width: 900px) {
-  .heroIllustration {
-    display: none;
+  .heroContent {
+    flex-direction: column;
+    padding-block: 3rem;
+    text-align: center;
   }
 
-  .heroContent {
-    padding-block: 5rem;
+  .heroIllustration {
+    order: -1;
+    flex: 0 0 auto;
+    width: 180px;
+    height: 180px;
+  }
+
+  .heroText {
+    max-width: 100%;
   }
 }
 
